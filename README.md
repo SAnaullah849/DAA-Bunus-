@@ -43,8 +43,10 @@ For the common fixed-alphabet formulation, Aho–Corasick is often summarized as
 - Aho–Corasick and KMP match counts are checked to be equal.
 - Three warm-up runs per case are not included in the average.
 
-See [RESULTS.md](RESULTS.md) for measured times from one run on the testing machine. Results may differ by computer and Java runtime.
+ for measured times from one run on the testing machine. Results may differ by computer and Java runtime.
 
 ## Discussion
 Aho–Corasick usually becomes much faster than separate KMP searches when the number of patterns and the text are large, because it scans the text only once. For small tests, setup costs and JVM timing noise can make KMP competitive or even faster. Aho–Corasick needs extra memory for the trie and links; KMP is simpler and a good choice for one pattern or a few patterns. For a large pattern set, Aho–Corasick is usually the better fit.
+
+
 
