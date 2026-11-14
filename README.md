@@ -6,6 +6,10 @@ This project finds all occurrences of several patterns in one text using Aho–C
 ## Files
 - `Main.java` — trie, failure links, output links, Aho–Corasick search, KMP, and benchmark.
 - `RESULTS.md` — measured experiment results.
+- `Notes 1` — Handwritten Notes.
+- - `Notes 2` — Handwritten Notes.
+
+
 ## How to run
 Install Java 8 or newer, then run:
 
